@@ -9,8 +9,8 @@ const LandingScreen = () => {
     const navigation = useNavigation();
 
     return (
-        <View style={{width: wp('100%'), height: hp('100%'), backgroundColor: '#FFFFFF'}}>
-            <View style={{ display: 'flex',height: hp('100%'), alignItems: 'center', top: hp('25%')}}>
+        <View style={{ width: wp('100%'), height: hp('100%'), backgroundColor: '#FFFFFF' }}>
+            <View style={{ display: 'flex', height: hp('100%'), alignItems: 'center', top: hp('25%') }}>
                 {/* <Image
                     style={{ width: wp('100%'), height: hp("20%") }}
                     resizeMode="contain"
@@ -33,6 +33,9 @@ const LandingScreen = () => {
                         </View>
                     </TouchableOpacity>
                 </View>
+            </View>
+            <View style={{ width: wp('100%'), bottom: hp("10%") }} >
+                <Text style={{textAlign: 'center', fontSize: 12}}>Powered By Chinar Deshpande</Text>
             </View>
         </View>
     )
